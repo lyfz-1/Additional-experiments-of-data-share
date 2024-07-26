@@ -40,7 +40,7 @@ This commit message belongs to the "what" category as defined by Tian et al. How
 
 **Q: Why did the authors use GitHub API rather than clone the repositories? Any benefits?**
 
-A: We are very sorry for the misrepresentation in the paper. In fact, for data collection, we first cloned the Java repositories that meet the requirements, and then used the git library, a Python library, to obtain the commit list. The corresponding script for data collection and cleaning can be found in our open source package: [lyfz-1/data-share: Anonymous data share for ASE 2024. (github.com)](https://github.com/lyfz-1/data-share)
+A: We are very sorry for the misrepresentation in the paper. In fact, for data collection, we first cloned the Java repositories that meet the requirements, and then used the git library, a Python library, to obtain the commit list. The corresponding script for data collection and cleaning can be found in our open source package: [data-share/data_collection_and_cleaning at master · lyfz-1/data-share (github.com)](https://github.com/lyfz-1/data-share/tree/master/data_collection_and_cleaning)
 
 
 

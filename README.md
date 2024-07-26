@@ -12,11 +12,7 @@ A: The definitions of explicit and implicit commit messages are: Explicit commit
 
 In a measurable way, the token overlap degree (between commit message and code diff) can be used as one of the measurable features to distinguish between explicit and implicit commit messages. 
 
-The token overlap degree d can be expressed as: 
-$$
-d = n/N
-$$
-where the n denotes the number of tokens in the commit message that appear in the diff token sequence, and the N denotes the number of tokens in the commit message.
+The token overlap degree d can be expressed as **d = n / N**, where the n denotes the number of tokens in the commit message that appear in the diff token sequence, and the N denotes the number of tokens in the commit message.
 
 The distribution of token overlap degrees for explicit and implicit commit messages  is as follows:
 

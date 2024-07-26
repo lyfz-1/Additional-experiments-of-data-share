@@ -154,4 +154,4 @@ We supplemented the results of another five models used in RQ4 (we made them bol
 |          LSTM           |   94.84%   |   93.79%   |   90.78%   |   92.77%   |
 |         Bi-LSTM         | **96.12%** | **94.02%** | **92.01%** | **93.24%** |
 
-Compared to the results in Table 3 in the paper, the best performer is still the Bi-LSTM-based classifier.
+The results show that the best performer is still the Bi-LSTM-based classifier.

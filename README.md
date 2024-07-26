@@ -38,13 +38,19 @@ This commit message belongs to the "what" category as defined by Tian et al. How
 
 ## (Reviewer #404A->Q2)
 
-The corresponding script for data collection and cleaning can be found in our open source package: [lyfz-1/data-share: Anonymous data share for ASE 2024. (github.com)](https://github.com/lyfz-1/data-share)
+**Q: Why did the authors use GitHub API rather than clone the repositories? Any benefits?**
+
+A: We are very sorry for the misrepresentation in the paper. In fact, for data collection, we first cloned the Java repositories that meet the requirements, and then used the git library, a Python library, to obtain the commit list. The corresponding script for data collection and cleaning can be found in our open source package: [lyfz-1/data-share: Anonymous data share for ASE 2024. (github.com)](https://github.com/lyfz-1/data-share)
 
 
 
 ## (Reviewer #404A->Q3) and (Reviewer #404B->Q1)
 
-We added experiments on two other recent LLMs (GPT4o-mini and Llama3-70B): 
+**(Reviewer #404A->Q3): Why did the authors focus on learning-based models rather than LLMs?**
+
+**(Reviewer #404B->Q1): Why did you choose these models and not more recent LLMs in the evaluation?**
+
+A: We added experiments on two other recent LLMs (GPT4o-mini and Llama3-70B): 
 
 |            LLM            |  Prompt  |  BLEU_M2  | BLEU_M3  | BLEU_DC  |  ROUGE-L  |  METEOR   |
 | :-----------------------: | :------: | :-------: | :------: | :------: | :-------: | :-------: |
@@ -61,7 +67,9 @@ The results show that the three recent LLMs we evaluated are better at generatin
 
 ## (Reviewer #404C->Q2)
 
-After investigating the size of a number of existing publicly available datasets (as shown in the following table), a medium size was chosen for our dataset size, i.e., 50,000.
+**Q: Why was the size of the datasets chosen to be 50,000, and how were the manually verified 10,000 used in them?**
+
+A: After investigating the size of a number of existing publicly available datasets (as shown in the following table), a medium size was chosen for our dataset size, i.e., 50,000.
 
 | Datasets       | Size   | references                                                   |
 | -------------- | ------ | ------------------------------------------------------------ |
@@ -76,7 +84,9 @@ After investigating the size of a number of existing publicly available datasets
 
 ## (Reviewer #404C->Q3) and (Reviewer #404A->statistical testing)
 
-We conducted a Mann-Whitney U test in Tables 4 and 7 in the paper. **Note:** The values in the following 4 tables represent the p-value of the Mann-Whitney U test. A p-value less than 0.05 indicates that the difference is statistically significant. P-values less than 0.05 are highlighted in bold.
+**Q: Were statistical tests performed to ensure the robustness of close results, especially in Tables 4 and 7?**
+
+A: We conducted a Mann-Whitney U test in Tables 4 and 7 in the paper. **Note:** The values in the following 4 tables represent the p-value of the Mann-Whitney U test. A p-value less than 0.05 indicates that the difference is statistically significant. P-values less than 0.05 are highlighted in bold.
 
 **For Table 7 ("Mixed" strategy VS "Diversion" strategy):** 
 

@@ -71,14 +71,14 @@ The results show that the three recent LLMs we evaluated are better at generatin
 
 A: After investigating the size of a number of existing publicly available datasets (as shown in the following table), a medium size was chosen for our dataset size, i.e., 50,000.
 
-| Datasets       | Size   | References                                                   |
-| -------------- | ------ | ------------------------------------------------------------ |
-| NNGen_data     | 27144  | Liu Z, Xia X, Hassan AE, Lo D, Xing Z, Wang X (2018) Neural-machine-translation-based commit message generation: how far are we? In: ASE. ACM, pp 373–384 |
-| CmtGen_data    | 32208  | Jiang S, McMillan C (2017) Towards automatic generation of short summaries of commits. In: Proceedings of the 25th international conference on program comprehension, ICPC 2017, Buenos Aires, Argentina, May 22-23, 2017 |
-| PtrGNCMsg_data | 32663  | Liu Q, Liu Z, Zhu H, Fan H, Du B, Qian Y (2019) Generating commit messages from diffs using pointergenerator network. In: MSR. IEEE/ACM, pp 299–309 |
-| MultiLang_data | 38734  | Loyola P, Marrese-Taylor E, Matsuo Y (2017) A neural architecture for generating natural language descriptions from source code changes. In: ACL (2). Association for Computational Linguistics, pp 287–292 |
-| CODISUM_data   | 90661  | Xu S, Yao Y, Xu F, Gu T, Tong H, Lu J (2019) Commit message generation for source code changes. In: IJCAI, pp 3975–3981. [ijcai.org](http://ijcai.org) |
-| CoRec_data     | 107448 | Wang H, Xia X, Lo D, He Q, Wang X, Grundy J (2021) Context-aware retrieval-based deep commit message generation. ACM Trans Softw Eng Methodol 30(4):56:1–56:30 |
+| Datasets       | Size    | References                                                   |
+| -------------- | ------- | ------------------------------------------------------------ |
+| NNGen_data     | 27,144  | Liu Z, Xia X, Hassan AE, Lo D, Xing Z, Wang X (2018) Neural-machine-translation-based commit message generation: how far are we? In: ASE. ACM, pp 373–384 |
+| CmtGen_data    | 32,208  | Jiang S, McMillan C (2017) Towards automatic generation of short summaries of commits. In: Proceedings of the 25th international conference on program comprehension, ICPC 2017, Buenos Aires, Argentina, May 22-23, 2017 |
+| PtrGNCMsg_data | 32,663  | Liu Q, Liu Z, Zhu H, Fan H, Du B, Qian Y (2019) Generating commit messages from diffs using pointergenerator network. In: MSR. IEEE/ACM, pp 299–309 |
+| MultiLang_data | 38,734  | Loyola P, Marrese-Taylor E, Matsuo Y (2017) A neural architecture for generating natural language descriptions from source code changes. In: ACL (2). Association for Computational Linguistics, pp 287–292 |
+| CODISUM_data   | 90,661  | Xu S, Yao Y, Xu F, Gu T, Tong H, Lu J (2019) Commit message generation for source code changes. In: IJCAI, pp 3975–3981. [ijcai.org](http://ijcai.org) |
+| CoRec_data     | 107,448 | Wang H, Xia X, Lo D, He Q, Wang X, Grundy J (2021) Context-aware retrieval-based deep commit message generation. ACM Trans Softw Eng Methodol 30(4):56:1–56:30 |
 
 
 

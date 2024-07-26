@@ -150,8 +150,8 @@ We supplemented the results of another five models used in RQ4 (we made them bol
 | **logistic Regression** |   81.30%   |   81.58%   |   80.86%   |   81.20%   |
 |        CatBoost         |   84.22%   |   84.11%   |   84.42%   |   84.25%   |
 |         XGBoost         |   84.69%   |   84.54%   |   84.95%   |   84.73%   |
-|         **MLP**         |   91.77%   |   90.64%   |   92.21%   |   91.46%   |
+|         **MLP**         |   91.77%   |   90.64%   | **92.21%** |   91.46%   |
 |          LSTM           |   94.84%   |   93.79%   |   90.78%   |   92.77%   |
-|         Bi-LSTM         | **96.12%** | **94.02%** | **92.01%** | **93.24%** |
+|         Bi-LSTM         | **96.12%** | **94.02%** |   92.01%   | **93.24%** |
 
-The results show that the best performer is still the Bi-LSTM-based classifier.
+The results show that the best performer is still the Bi-LSTM-based classifier (We chose the model with the highest F1 score because the F1 score is more indicative of the comprehensive performance of the binary classifier).

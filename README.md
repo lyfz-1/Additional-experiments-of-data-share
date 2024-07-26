@@ -71,7 +71,7 @@ The results show that the three recent LLMs we evaluated are better at generatin
 
 A: After investigating the size of a number of existing publicly available datasets (as shown in the following table), a medium size was chosen for our dataset size, i.e., 50,000.
 
-| Datasets       | Size   | references                                                   |
+| Datasets       | Size   | References                                                   |
 | -------------- | ------ | ------------------------------------------------------------ |
 | NNGen_data     | 27144  | Liu Z, Xia X, Hassan AE, Lo D, Xing Z, Wang X (2018) Neural-machine-translation-based commit message generation: how far are we? In: ASE. ACM, pp 373–384 |
 | CmtGen_data    | 32208  | Jiang S, McMillan C (2017) Towards automatic generation of short summaries of commits. In: Proceedings of the 25th international conference on program comprehension, ICPC 2017, Buenos Aires, Argentina, May 22-23, 2017 |
